@@ -13,6 +13,11 @@ public static void main(String[] args) {
     Colegio.Opera();
     
     
+    Estudiante estudiante1 = new Estudiante ("Daniel","Cardenas",4,4,"Septimo");
+    
+    estudiante1.mostrarDatos();
+    
+    
     
     
 }

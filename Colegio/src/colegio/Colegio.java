@@ -48,14 +48,20 @@ Scanner leer = new Scanner (System.in);
                   NumNotas=leer.nextInt(); ///////////a///////////////hacer contador de notas      
                   Escritura.espacio();
                   
+                  
+                 
                  //FOR NOTAS
                  for(nota=1;nota<=NumNotas;nota++){
                      counterSumerNote1=0; //inicialisando count de suma notas a 0
-                     
-                     System.out.println("Nota: "+nota+". Materia: "+matter+". Estuduante: "+student+".");
+                     //inicio de bucle 
+                      do {System.out.println("Nota: "+nota+". Materia: "+matter+". Estuduante: "+student+".");
                      System.out.println("Ingrese nota ");
                   //contador suma el valor de notas
                     inNote = leer.nextFloat();
+                      
+                      
+                      if(inNote>5){System.out.println("\nOpcion incorrecta, la nota debe ser menor que 5 \nFavor digitar nuevamente");}//Condicional nota mayor a 5
+                      }while(inNote>5);
                      counterSumerNote = counterSumerNote + inNote; 
                  }
                  

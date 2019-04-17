@@ -13,17 +13,17 @@ public class Persona {
     
     private String nombre;
     private String apellido;
-    private String edad;
+    
     
     
     
     //Contructor
- public Persona(String nombre, String apellido, String edad)
+ public Persona(String nombre, String apellido)
  
  {
     this.nombre = nombre;
     this.apellido = apellido;
-    this.edad = edad;
+   ;
  
 }
 
@@ -35,12 +35,5 @@ public class Persona {
         return apellido;
     }
 
-    public String getEdad() {
-        return edad;
-    }
- 
- 
- 
- 
- 
+
 }

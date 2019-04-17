@@ -1,2 +1,29 @@
 git remote add origin https://github.com/jhreyes483/Promedio-Colegio.git
 git push -u origin master
+
+
+
+$ git log
+commit 6daf27dcb64fb2ff2fe798cd16132169813cca10 (HEAD)
+Author: jhreyes483 <jhreyes@misena.edu.co>
+Date:   Tue Apr 16 22:33:20 2019 -0500
+
+    Base de clases OOP v3    //// final actual
+
+commit 7198ee7397c5278e8019a0d0b950932ebb3c7dc9
+Author: jhreyes483 <jhreyes@misena.edu.co>
+Date:   Tue Apr 16 22:16:57 2019 -0500
+
+    incompleto OOP
+
+commit 50f680768c14f8e0625dd7ee2327b1df872a33b2
+Author: jhreyes483 <jhreyes@misena.edu.co>
+Date:   Tue Apr 16 21:44:00 2019 -0500
+
+    Base de clases OOP v2
+
+commit 9b567879aaca2745f9b47f4f3a76318487f168c1
+Author: jhreyes483 <jhreyes@misena.edu.co>
+Date:   Tue Apr 16 21:37:34 2019 -0500
+
+    Base de clases OOP
