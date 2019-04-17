@@ -5,33 +5,16 @@
  */
 package colegio;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Javier Reyes Neira
  */
 public class Escritura {
     
-    public void (){}
+   
     
     
-
-    
-    
-    
-    public static void ScreeDateStudent(){
-        
-        Scanner leer = new Scanner (System.in);
-        
-        
-        
-        
-        
-        
-        System.out.println("Ingrese numero de estudiantes :");
-        nStudent = leer.nextInt();
-    }
+    public static void ScreeDateStudent(){}
     
     
     public static void presentacion(){

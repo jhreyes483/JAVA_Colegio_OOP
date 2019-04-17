@@ -6,14 +6,15 @@ import java.util.Scanner;
 
 
 public class Colegio {
-
+Scanner leer = new Scanner (System.in);
 
     
     public static void Opera() {
  
     Scanner leer = new Scanner (System.in);
-  
-          
+    
+    
+ 
      int NumNotas=0, matter=1,nota=1, nStudent, student=1,NumMaterias=1 ;
      //Definicion de contadores
      float counterSumerNote=0,counterQuentityNote=0, counterSumerNote1=0 ;
@@ -23,9 +24,11 @@ public class Colegio {
      float averageNote, averageMatter;
      
      
-     Escritura.ScreeDateStudent();
+   
     
-        
+         System.out.println("Ingrese numero de estudiantes :");
+        nStudent = leer.nextInt();
+          
        
        
         //FOR ESTUDIANTES
