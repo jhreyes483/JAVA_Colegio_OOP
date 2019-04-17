@@ -7,16 +7,11 @@ import java.util.Scanner;
 
 public class Colegio {
 
-    
-    
-    
-    
-  
+
     
     public static void Opera() {
  
-         
-          Scanner leer = new Scanner (System.in);
+    Scanner leer = new Scanner (System.in);
   
           
      int NumNotas=0, matter=1,nota=1, nStudent, student=1,NumMaterias=1 ;
@@ -28,10 +23,9 @@ public class Colegio {
      float averageNote, averageMatter;
      
      
-     
+     Escritura.ScreeDateStudent();
     
-        System.out.println("Ingrese numero de estudiantes :");
-        nStudent = leer.nextInt();
+        
        
        
         //FOR ESTUDIANTES
