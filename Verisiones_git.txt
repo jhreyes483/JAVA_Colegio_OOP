@@ -1,14 +1,18 @@
-git remote add origin https://github.com/jhreyes483/Promedio-Colegio.git
+git remote add origin https://github.com/jhreyes483/JAVA_Promedio_notas_OOP.git
 git push -u origin master
 
 
+commit 5cc73b34fca17bf3f25df6579a57f5e1d4758ccf (HEAD -> version_2)
+Author: Javier Hildebrando Reyes Neira <jhreyes483@misena.edu.co>
+Date:   Wed Apr 17 10:22:16 2019 -0500
 
-$ git log
-commit 6daf27dcb64fb2ff2fe798cd16132169813cca10 (HEAD)
+    V clases: con do while en nota mayor a 5
+
+commit 6daf27dcb64fb2ff2fe798cd16132169813cca10
 Author: jhreyes483 <jhreyes@misena.edu.co>
 Date:   Tue Apr 16 22:33:20 2019 -0500
 
-    Base de clases OOP v3    //// final actual
+    Base de clases OOP v3
 
 commit 7198ee7397c5278e8019a0d0b950932ebb3c7dc9
 Author: jhreyes483 <jhreyes@misena.edu.co>
@@ -21,9 +25,3 @@ Author: jhreyes483 <jhreyes@misena.edu.co>
 Date:   Tue Apr 16 21:44:00 2019 -0500
 
     Base de clases OOP v2
-
-commit 9b567879aaca2745f9b47f4f3a76318487f168c1
-Author: jhreyes483 <jhreyes@misena.edu.co>
-Date:   Tue Apr 16 21:37:34 2019 -0500
-
-    Base de clases OOP
