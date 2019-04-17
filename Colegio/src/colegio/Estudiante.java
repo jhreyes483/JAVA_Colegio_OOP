@@ -1,14 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package colegio;
 
-/**
- *
- * @author Javier Reyes Neira
- */
-public class Estudiante {
+
+public class Estudiante extends Persona {
     
+    
+    private float promedioMatter;
+    private float promedioNote;
+    private String curso;
+
+    public Estudiante(String nombre, String apellido, String edad, float promedioMatter, float promedioNote, String curso) {
+        super(nombre, apellido, edad);
+         this.curso = curso;
+          this.promedioMatter =  promedioMatter;
+           this.promedioNote = promedioNote;
+ }
+
+    
+    public void mostraDatos(){
+    
+        
+        
+        
+    } 
+
+
 }
+    
+    
+    
+    
+

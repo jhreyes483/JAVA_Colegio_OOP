@@ -8,21 +8,12 @@ import java.util.Scanner;
 public class Colegio {
 
     
-    public static void espacio(){
-         System.out.println("");
-         System.out.println("");
-     }
     
-    public static void presentacion(){
     
-        System.out.println("By: Javier Reyes Neira");
-        System.out.println("Promedio colegio");
-        System.out.println("SENA. A.D.S.I");    
     
-    }
   
     
-    public static void main(String[] args) {
+    public static void Opera() {
  
          
           Scanner leer = new Scanner (System.in);
@@ -36,8 +27,7 @@ public class Colegio {
      // definicion de varibles de pormedio
      float averageNote, averageMatter;
      
-     Colegio.presentacion();
-     Colegio.espacio();
+     
      
     
         System.out.println("Ingrese numero de estudiantes :");
@@ -50,7 +40,7 @@ public class Colegio {
             
         System.out.println("Ingrese cantidad de materias :");
         NumMaterias = leer.nextInt();
-       Colegio.espacio();
+       Escritura.espacio();
         
              //FOR MATERIAS
              for(matter=1;matter<=NumMaterias;matter++){
@@ -59,7 +49,7 @@ public class Colegio {
                  
                   System.out.println("Ingrese cantidad de notas");
                   NumNotas=leer.nextInt(); ///////////a///////////////hacer contador de notas      
-                  Colegio.espacio();
+                  Escritura.espacio();
                   
                  //FOR NOTAS
                  for(nota=1;nota<=NumNotas;nota++){
